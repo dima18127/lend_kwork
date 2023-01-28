@@ -1,0 +1,28 @@
+.menu {
+    position: fixed;
+    z-index: 3;
+    height: 60px;
+    width: 100%;
+    padding: 0px 100px 0px 30px;
+    color: aliceblue;
+    background-color: rgb(61, 61, 61, 0.8);
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 1);
+    &__wrapper {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    &__form {
+        display: flex;
+        &-descr {
+            line-height: 40px;
+            font-size: 20px;
+            margin-right: 60px;
+            color: white;
+            text-decoration: none;
+        }
+    }
+
+    &__btn {
+    }
+}

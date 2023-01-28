@@ -1,0 +1,34 @@
+.title {
+    font-weight: 400;
+    font-size: 56px;
+    line-height: 60px;
+    &_fz14 {
+        font-size: 11px;
+    }
+    &_fz16 {
+        font-size: 16px;
+        line-height: 24px;
+    }
+    &_fz20 {
+        font-size: 20px;
+        line-height: 30px;
+        font-weight: 600;
+    }
+    &_fz48 {
+        font-size: 48px;
+    }
+    &_fz28 {
+        font-size: 28px;
+        font-weight: 600;
+    }
+}
+.subtitle {
+    font-weight: 400;
+    font-size: 42px;
+    line-height: 42px;
+
+    &-fz26 {
+        font-size: 26px;
+        line-height: 26px;
+    }
+}

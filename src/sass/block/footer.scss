@@ -1,0 +1,16 @@
+.footer {
+    margin-top: 100px;
+    padding: 50px 20px;
+    background-color: rgb(31, 31, 31);
+    height: 200px;
+    &__wrapper {
+        display: flex;
+        justify-content: space-around;
+        color: white;
+    }
+
+    &__adress {
+    }
+}
+.logo {
+}

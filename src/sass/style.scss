@@ -1,0 +1,40 @@
+* {
+    font-family: "Montserrat";
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    background-color: #f5fdff;
+}
+a {
+    color: white;
+    text-decoration: none;
+}
+
+.container {
+    max-width: 1400px;
+    margin: 0 auto;
+}
+.btn {
+    display: block;
+    width: 250px;
+    height: 40px;
+    color: rgb(0, 0, 0);
+    background-color: #91d765;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.btn:hover {
+    background-color: rgb(46, 143, 37);
+}
+
+@import "src/sass/block/title.scss";
+@import "src/sass/block/promo.scss";
+@import "src/sass/block/menu.scss";
+@import "src/sass/block/about.scss";
+@import "src/sass/block/contactForm.scss";
+@import "src/sass/block/footer.scss";
+@import "src/sass/block/second.scss";
+@import "src/sass/block/media.scss";
+@import "src/sass/block/houseform.scss";

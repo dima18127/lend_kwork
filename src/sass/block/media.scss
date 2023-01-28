@@ -1,0 +1,176 @@
+@media (max-width: 1600px) {
+    .second {
+        padding: 20px 60px;
+        position: relative;
+        &__wrap {
+            display: block;
+            width: 100%;
+            flex-direction: column;
+            padding: 20px 20px;
+        }
+        &_we {
+            display: flex;
+            width: 100%;
+        }
+        &__title-wrap {
+            padding: 5px 20px;
+            width: 100%;
+            text-align: center;
+        }
+        &__img-house {
+            position: static;
+            display: block;
+            max-width: 700px;
+            margin: 20px auto;
+            // left: 310px;
+            z-index: 1;
+            img {
+                width: 100%;
+            }
+        }
+        &__blocks {
+            display: flex;
+            flex-wrap: wrap;
+            height: auto;
+            width: 100%;
+            justify-content: center;
+        }
+
+        &__block-card {
+            padding: 10px 10px;
+            margin-top: 1px;
+            margin-right: 1px;
+            display: block;
+            max-width: 300px;
+            height: 200px;
+            background-color: #fff;
+        }
+        &__block-card:nth-child(2) {
+            color: white;
+            background: #27242d;
+        }
+        &__block-card:nth-child(3) {
+            background-color: #cce2f0;
+        }
+        &__block-card:nth-child(5) {
+            color: white;
+            background-color: #90da51;
+        }
+
+        &__title {
+            &_fz36 {
+                text-align: center;
+            }
+
+            &_fz16 {
+            }
+        }
+    }
+}
+@media (max-width: 1400px) {
+}
+@media (max-width: 1200px) {
+}
+@media (max-width: 992px) {
+    .menu {
+        padding: 5px 5px;
+        &__wrapper {
+        }
+
+        &__form {
+        }
+
+        &__form-descr {
+            display: none;
+        }
+
+        &__btn {
+        }
+    }
+    .logo {
+    }
+    .btn {
+    }
+    .promo {
+        width: 100%;
+        min-height: 100vh;
+        color: aliceblue;
+        background: url("images/bg/1.jpg") 50% / cover no-repeat;
+        position: relative;
+        &__wrap {
+            display: block;
+            height: 300px;
+            position: absolute;
+            left: 37%;
+            top: 70%;
+            text-justify: end;
+        }
+        &__title {
+            font-size: 36px;
+            text-align: right;
+        }
+        &__subtitle {
+            margin-top: 10px;
+            font-size: 20px;
+        }
+    }
+}
+@media (max-width: 768px) {
+    .second {
+        &__block-card {
+            margin-top: 10px;
+        }
+    }
+    .promo {
+        width: 100%;
+        min-height: 100vh;
+        color: aliceblue;
+        background: url("images/bg/1.jpg") 50% / cover no-repeat;
+        position: relative;
+        &__wrap {
+            display: block;
+            height: 300px;
+            position: absolute;
+            left: 37%;
+            top: 70%;
+            text-justify: end;
+        }
+        &__title {
+            font-size: 30px;
+            line-height: 30px;
+            text-align: right;
+        }
+        &__subtitle {
+            margin-top: 10px;
+            font-size: 12px;
+        }
+    }
+}
+@media (max-width: 576px) {
+    .promo {
+        width: 100%;
+        min-height: 100vh;
+        color: aliceblue;
+        background: url("images/bg/1.jpg") 50% / cover no-repeat;
+        position: relative;
+        &__wrap {
+            display: block;
+            height: 300px;
+            position: absolute;
+            left: 37%;
+            top: 70%;
+            text-justify: end;
+        }
+        &__title {
+            font-size: 26px;
+            line-height: 25px;
+            text-align: right;
+        }
+        &__subtitle {
+            margin-top: 10px;
+            font-size: 12px;
+        }
+    }
+}
+@media (max-width: 1200px) {
+}
