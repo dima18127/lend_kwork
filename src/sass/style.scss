@@ -1,3 +1,5 @@
+@import "base/variables";
+@import "base/mixins";
 * {
     font-family: "Montserrat";
     margin: 0;
@@ -17,12 +19,16 @@ a {
     margin: 0 auto;
 }
 .btn {
+    padding: 10px 20px;
     display: block;
-    width: 250px;
+    width: 260px;
     height: 40px;
+    font-size: 15px;
+    // line-height: 40px;
     color: rgb(0, 0, 0);
     background-color: #91d765;
-    border-radius: 5px;
+    border-radius: 20px;
+    text-align: center;
     cursor: pointer;
 }
 .btn:hover {
@@ -36,5 +42,10 @@ a {
 @import "src/sass/block/contactForm.scss";
 @import "src/sass/block/footer.scss";
 @import "src/sass/block/second.scss";
-@import "src/sass/block/media.scss";
 @import "src/sass/block/houseform.scss";
+@import "src/sass/block/info.scss";
+@import "src/sass/block/income.scss";
+@import "src/sass/block/news.scss";
+@import "src/sass/block/slider.scss";
+
+@import "src/sass/block/media.scss";
