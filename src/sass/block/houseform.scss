@@ -1,17 +1,27 @@
 .house-form {
     // min-height: 1000px;
     min-height: 1000px;
-    padding-top: 400px;
+    padding-top: 20px;
+    z-index: -2;
     background: url("images/house/house3.png") center / cover no-repeat;
     &__wrap {
-        padding-left: 30px;
+        padding-left: 70px;
+        position: relative;
     }
+
     &__title {
         margin-top: 20px;
+        font-size: 38px;
+        text-align-last: left;
     }
 
     &__subtitle {
-        margin-top: 10px;
+        margin-top: 230px;
+        font-weight: 600;
+        span {
+            font-size: 20px;
+            font-weight: 400;
+        }
     }
 
     &__wraptext {
@@ -28,7 +38,7 @@
 
     &__wrapform {
         width: 270px;
-        margin-top: 20px;
+        margin-top: 60px;
         input[type="text"],
         [type="number"] {
             display: block;
